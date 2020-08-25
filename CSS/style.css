@@ -1,0 +1,69 @@
+/***************
+     Global
+ ***************/
+
+ a{
+     text-decoration: none;
+ }
+
+/***************
+     Header
+ ***************/
+
+ header{
+     height: 13vh;
+     background-color: #f2f2f2;
+     border-bottom: 1px solid lightgray;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .navbar{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     align-items: baseline;
+ }
+
+ .navbar img{
+     height: 30px;
+ }
+
+ .nav-content{
+     display:  flex;
+ }
+
+ .nav-left{
+     margin-left: 2vw;
+ }
+
+ .nav-left li:last-child{
+     margin-left: 2vw;
+ }
+
+ #searchbar{
+    width: 25vw;
+    height: 3em;
+    border-radius: 20px;
+    border-color: rgba(0,0,0,.14);
+    text-indent: 1vw;
+    background-color: white;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 5 gray;
+}
+
+ #sign-in{
+    width: 80px;
+    height: 35px;
+    background-color:#4285f4;
+    border: none;
+    border-radius: 2px;
+}
+
+#sign-text{
+    color:white;
+    font-weight: bold;
+}
