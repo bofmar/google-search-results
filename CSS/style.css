@@ -6,13 +6,16 @@
      text-decoration: none;
  }
 
+ .on-left{
+     margin-left: 8.85vw;
+ }
+
 /***************
      Header
  ***************/
 
  header{
      height: 13vh;
-     background-color: #f2f2f2;
      border-bottom: 1px solid lightgray;
      display: flex;
      flex-direction: column;
@@ -23,7 +26,30 @@
      display: flex;
      width: 100%;
      justify-content: space-between;
-     align-items: baseline;
+     align-items: center;
+ }
+
+ .scrolls{
+    position: fixed;
+    background-color: white;
+    top:0;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+ }
+
+ .noscroll{
+     padding-top: 8vh;
+     width: 25%;
+     color:#5f6368;
+     font-size: 13px;
+ }
+
+ #noscrleft li{
+     padding-right: 10px;
+ }
+
+ #noscrolright li:first-child{
+     padding-right:10px;
  }
 
  .navbar img{
@@ -40,6 +66,33 @@
 
  .nav-left li:last-child{
      margin-left: 2vw;
+ }
+
+ .nav-left i{
+     position: fixed;
+ }
+
+ #cross, #m-glass{
+    font-size: 20px;
+    top: 4vh;
+ }
+
+ #cross{
+     left: 30.4vw;
+ }
+
+ #m-glass{
+     left: 32vw;
+ }
+
+ .nav-right{
+     margin-right: 2vw;
+ }
+
+ .nav-right i{
+     font-size: 20px;
+     padding-top: 5px;
+     padding-right: 10px;
  }
 
  #searchbar{
@@ -66,4 +119,11 @@
 #sign-text{
     color:white;
     font-weight: bold;
+}
+
+
+/*FOR TESTS*/
+
+pre{
+    font-size: 80px;
 }
