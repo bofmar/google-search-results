@@ -48,6 +48,11 @@
      padding-right: 10px;
  }
 
+ #tools:hover{
+     background-color: #f2f2f2;
+     border: 1px solid #d6d6d6;
+ }
+
  #noscrolright li:first-child{
      padding-right:10px;
  }
@@ -77,12 +82,18 @@
     top: 4vh;
  }
 
+ header li:hover{
+     cursor: pointer;
+ }
+
  #cross{
      left: 30.4vw;
+     color: #5f6368;;
  }
 
  #m-glass{
      left: 32vw;
+     color: #4285f4;
  }
 
  .nav-right{
@@ -105,7 +116,7 @@
 }
 
 #searchbar:hover{
-    box-shadow: 0 0 5 gray;
+    box-shadow: 0 0 3px rgba(0,0,0,.14);
 }
 
  #sign-in{
@@ -119,11 +130,4 @@
 #sign-text{
     color:white;
     font-weight: bold;
-}
-
-
-/*FOR TESTS*/
-
-pre{
-    font-size: 80px;
 }
