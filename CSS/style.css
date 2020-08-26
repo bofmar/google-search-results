@@ -146,7 +146,7 @@
  }
 
  .result-container{
-     padding-top: 15px;
+     padding-top: 35px;
      width: 30%;
  }
 
@@ -161,7 +161,7 @@
      cursor: pointer;
  }
 
- .result-header pre, .result-header i{
+ .result-header pre, .result-header i, time{
     color: #5f6368;
  }
 
@@ -176,7 +176,7 @@
 
  .result-description{
      padding-top: 8px;
-     color: #5f6368;
+     color: rgba(0,0,0, 0.85);
      font-size: 15px;
  }
 
