@@ -14,7 +14,7 @@
      Header
  ***************/
 
- header{
+ .nav-header{
      height: 13vh;
      border-bottom: 1px solid lightgray;
      display: flex;
@@ -131,3 +131,56 @@
     color:white;
     font-weight: bold;
 }
+
+/***************
+     Results
+ ***************/
+
+ #results{
+     padding-top: 15px;
+ }
+
+ #from-results{
+    color: #5f6368;
+    font-size: 12px;
+ }
+
+ .result-container{
+     padding-top: 15px;
+     width: 30%;
+ }
+
+ .result-header{
+     font-size: 15px;
+     display: flex;
+     justify-content: flex-start;
+     padding-bottom: 10px;
+ }
+
+ .result-header:hover{
+     cursor: pointer;
+ }
+
+ .result-header pre, .result-header i{
+    color: #5f6368;
+ }
+
+ .google-link{
+     color: rgba(31, 58, 147, 1);
+     font-size: 18px;
+ }
+
+ .google-link:hover{
+     text-decoration: underline;
+ }
+
+ .result-description{
+     padding-top: 8px;
+     color: #5f6368;
+     font-size: 15px;
+ }
+
+ b{
+     color: rgba(0, 0, 0, 0.9);
+     font-weight: 600;
+ }
