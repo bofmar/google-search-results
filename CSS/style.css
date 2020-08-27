@@ -1,6 +1,6 @@
 /***************
      Global
- ***************/
+***************/
 
  a{
      text-decoration: none;
@@ -11,8 +11,8 @@
  }
 
 /***************
-     Header
- ***************/
+    Header
+***************/
 
  .nav-header{
      height: 13vh;
@@ -133,8 +133,8 @@
 }
 
 /***************
-     Results
- ***************/
+    Results
+***************/
 
  #results{
      padding-top: 15px;
@@ -186,9 +186,9 @@
  }
 
 
- /***************
-      Videos
- ***************/
+/***************
+    Videos
+***************/
 
  .videos{
      margin-top: 35px;
@@ -245,3 +245,45 @@
  .video-card footer{
      width: 80%;
  }
+
+/***************
+  Collapsible
+***************/
+
+ .people-ask{
+     margin-top: 35px;
+     border: 1px solid lightgray;
+     box-shadow: 0 0 1px rgba(0,0,0,.18);
+     width: 34.2%;
+     border-radius: 5px;
+ }
+
+ .people-title{
+     padding:20px 20px 20px 20px;
+     font-size: 18px;
+     border-bottom: 1px solid lightgray;
+ }
+
+ .collapsible{
+     cursor: pointer;
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid lightgray;
+     text-align: left;
+     outline: none;
+     background: white;
+     padding:15px 15px 0px 20px;
+     font-size: 16px;
+ }
+
+ .collapsible div{
+     text-align: right;
+ }
+
+/***************
+     Images
+***************/
+
+.images{
+    margin-top: 35px;
+}
