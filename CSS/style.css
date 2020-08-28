@@ -287,3 +287,11 @@
 .images{
     margin-top: 35px;
 }
+
+.link-list{
+    display: flex;
+}
+
+.link-list a{
+    color: initial;
+}
