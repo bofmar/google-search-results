@@ -290,8 +290,47 @@
 
 .link-list{
     display: flex;
+    margin-top: 8px;
+}
+
+.link-list li{
+    border: 1px solid #d6d6d6;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 4px;
 }
 
 .link-list a{
-    color: initial;
+    color: initial;    
+}
+
+.image-list{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 40%;
+}
+
+.image-list li{
+    margin-right: 4px;
+}
+
+.image-list img{
+    width: 100%;
+}
+
+.more-links{
+    position: relative;
+}
+
+.more-links::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f061";
 }
